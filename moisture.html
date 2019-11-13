@@ -14,15 +14,53 @@
     <h1>Adding a moisture sensor</h1>
   </header>
 
-  <div id="intro">
-    <p></p>
+  <div id="sensor" class="left">
+    <p>Pins 0, 1 and 2 on the micro:bit can be used to sense when a connection has been made.</p>
+    <p>By putting things connected to those pins into a <strong>conductive</strong> material, you can measure how much <strong>current</strong> is passing through it.</p>
+    <p>This property can be used to sense how much moisture is in something!</p>
+    <br>
+    <h5>You will need:</h5>
+    <ul>
+       <li>Two crocodile clips</li>
+       <li>Two metal implements, e.g. spoons</li>
+       <li>Cup of soil for testing</li>
+    </ul>
+    <ol>
+      <li>Connect one end of one clip to the pin labelled <strong>GND</strong>.</li>
+      <li>Connect the other end to one of your metal implements.</li>
+      <li>Connect one end of the other clip to the pin labelled <strong>0</strong>.</li>
+      <li>Connect the other end to your second metal implement.</li>
+      <li>Push your two metal implements into the soil, so they are <strong>not touching each other</strong>.</li>
+    </ol>
+    <img src=".\images\moisture-photo.JPG" alt="photo of connections" width="600px" height="auto">
+    <p>Work out what value your micro:bit is reading right now, then <strong>think about what problems you could solve by monitoring moisture levels!</strong></p>
   </div>
 
-  <div id="step1" class="left">
-    <h3></h3>
-    <p></p>
-    <br>
+  <div id="intro" class="left">
+    <h3>Building your program</h3>
+    <img src=".\images\moisture-code.PNG" alt="on button pressed vs if button pressed" width="600px" height="auto">
+    <p>These two blocks of code are <em>equivalent</em>.</p>
+    <p>The one on the left is good for quick testing.</p>
+    <p>The one on the right is more useful to us, because you can use it to build more complex programs.</p>
+    <p><strong>analog read pin</strong> means that you will get a number between 0 and 1023.</p>
   </div>
+
+  <div id="cont" class="left">
+    <h3>What can you use this for?</h3>
+    <p>As well as your <strong>Inputs</strong>, the blocks you need for this are in the <strong>Logic</strong> menu, and the <strong>Advanced-->Pins</strong> menu.</p>
+    <p>As well as the <strong>Conditionals</strong> in the <strong>Logic</strong> menu, you can combine <strong>Comparison</strong> and <strong>Boolean</strong> blocks to make a really interesting program!</p>
+    <h3>What problems could you solve using a moisture sensor?</h3>
+  </div>
+
+  <nav id="examples" class="links bg_green">
+    <a href="light.html">sense light</a>
+    <a href="temperature.html">sense temperature</a>
+    <a href="moisture.html">sense moisture</a>
+    <a href="direction.html">sense direction</a>
+    <a href="movement.html">sense movement</a>
+    <a href="connections.html">sense connection</a>
+    <a href="radio.html">transmit information</a>
+  </nav>
 
   <footer class="links">
     <a href="https://github.com/ScienceOxford/do-your-bit" target="_blank">View on GitHub</a>
