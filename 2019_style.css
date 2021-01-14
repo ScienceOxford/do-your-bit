@@ -9,12 +9,12 @@ img {
   max-width: 100%;
   height: auto;
   margin: 10px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 body {
   background-color: rgb(235, 235, 235);
-  font-family: "Roboto";
+  font-family: "Roboto Condensed";
   text-align: center;
   font-size: 16px;
   margin: 5px;
@@ -35,31 +35,14 @@ h3 {
 }
 
 h4 {
-  color: rgb(30, 144, 255);
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-h5 {
-  color: rgb(227, 0, 141);
-  font-size: 22px;
+  color: rgb(0, 133, 202);
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 p {
   color: rgb(34, 35, 34);
   margin-bottom: 10px;
-}
-
-pre {
-  font-family: "Roboto Mono";
-  border: thin dashed darkgrey;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-code {
-  font-family: "Roboto Mono";
 }
 
 .left {
@@ -84,11 +67,24 @@ code {
   text-decoration: none;
 }
 
-.debugging {
-  background-color: rgb(249,217,194);
-}
-
-ul, ol {
+ul {
   margin-left: 20px;
   margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+pre {
+    page-break-inside: avoid;
+    font-family: "Courier New", monospace;
+    line-height: 1.5;
+    border: 2px dotted rgb(34, 35, 34);
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
 }

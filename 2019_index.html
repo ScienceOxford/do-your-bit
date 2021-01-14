@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>do your :bit</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto Condensed:100,300,400,500,700,900" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <a href="https://scienceoxford.com" target="_blank"><img src=".\images\so_logo.png" alt="Science Oxford Logo" width="400px" height="auto"></a>
+    <h1>CCC - do your :bit</h1>
+  </header>
+
+  <div id="intro">
+    <p>Resources for the 'do your :bit' Creative Computing Club.</p>
+    <p>This page recaps what <a href="https://bit.ly/Nov19CCC" target="_blank">we discussed as a group</a>.</p>
+    <p>To skip to the examples and ideas, <a href="#examples">click here</a>.</p>
+  </div>
+
+  <div id="challenge" class="left">
+    <h3>The do your :bit challenge</h3>
+    <p><em>do your :bit</em> challenges you to use a BBC micro:bit to come up with solutions to the UN's Global Goals.</p>
+    <img src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2016/07/english_SDG_17goals_poster_all_languages_with_UN_emblem_1-2.png"
+    alt="global goals grid" width="600px" height="auto">
+    <p>It focuses on <a href="https://www.globalgoals.org/14-life-below-water" target="_blank">Goal 14</a>, <strong>Life Below Water</strong> and <a href="https://www.globalgoals.org/15-life-on-land" target="_blank">Goal 15</a>, <strong>Life On Land</strong>, but if you prefer one of the other Goals, that is fine too!</p>
+    <p><strong>How will your design help your community, or another community in the world?</strong></p>
+    <p>To <a href="https://form.jotformeu.com/91692555943368" target="_blank">enter the challenge</a>, you need to describe your design, and submit your code or a photograph of your prototype.</p>
+    <p>You can use our template to help you. To download it, <a href="https://github.com/ScienceOxford/do-your-bit/raw/master/do-your-bit-template.pdf" target="_blank">click here</a>.</p>
+    <p><strong>Don't rush your entry!</strong> Take your ideas and your code home and work on them - you don't need a micro:bit to complete the challenge!</p>
+    <br>
+  </div>
+
+  <div id="starter" class="left">
+    <h3>Creating your first program</h3>
+    <p>Go to the <a href="https://makecode.microbit.org/" target="_blank">MakeCode editor</a>, and click <strong>New Project</strong>.</p>
+    <img src=".\images\makecode.PNG" alt="MakeCode editor window" width="600px" height="auto">
+    <p>Drag and drop code blocks (<em>click into the <strong>Basic</strong> menu</em>), to recreate this code:</p>
+    <img src=".\images\onstart-showstring.PNG" alt="on start, display string" width="600px" height="auto">
+    <p>You will see it running on the emulator on the left of your screen.</p>
+    <ul>
+      <li>What happens if you put the <strong>show</strong> block inside <strong>forever</strong> instead of <strong>on start</strong>?</li>
+      <li>What other <strong>show</strong> blocks can you find in the <strong>Basic</strong> menu?</li>
+    </ul>
+    <p>Plug your micro:bit into the computer, and click <strong>Download</strong>.</p>
+    <p><strong>This should send the code directly to your micro:bit.</strong> If it does not, <a href="pair-microbit.html" target="_blank">click here</a>.</p>
+    <br>
+  </div>
+
+  <div id="sensor" class="left">
+    <h3>Light sensor</h3>
+    <p>Try this code:</p>
+    <img src="https://isioviel.github.io/GLAM/images/light-sensor-basic-code.PNG" alt="if button a pressed, show light level" width="600px" height="auto">
+    <p>If you press Button A on your micro:bit, it will display the light level <strong>at the time the button was pressed</strong>.</p>
+    <br>
+  </div>
+
+  <div id="outputs" class="left">
+    <h3>Next steps</h3>
+    <p>The micro:bit has many different sensors you can use. To decide where to start, <strong>think about what problem you want to solve</strong>.</p>
+    <p><strong>Click the links below to get started with sensors</strong>.</p>
+    <p>You can also use other <em>outputs</em>, such as an external LED, or a speaker.</p>
+    <p>To connect and program these, <a href="https://scienceoxford.github.io/ElecKit" target="_blank">click here</a>.</p>
+  </div>
+
+  <nav id="examples" class="links bg_green">
+    <a href="light.html">sense light</a>
+    <a href="temperature.html">sense temperature</a>
+    <a href="moisture.html">sense moisture</a>
+    <a href="direction.html">sense direction</a>
+    <a href="movement.html">sense movement</a>
+    <a href="connections.html">sense connection</a>
+    <a href="radio.html">transmit information</a>
+  </nav>
+
+  <footer class="links">
+    <a href="https://github.com/ScienceOxford/do-your-bit" target="_blank">View on GitHub</a>
+  </footer>
+
+</body>
+</html>
