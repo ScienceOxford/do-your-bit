@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tech for Change</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <a href="https://scienceoxford.com" target="_blank"><img src=".\images\so_logo.png" alt="Science Oxford Logo" width="400px" height="auto"></a>
+    <h1>CCC - Tech for Change</h1>
+  </header>
+
+  <div id="intro">
+    <p>Resources for the 'Tech for Change' Creative Computing Club.</p>
+    <p>This page recaps what <a href="https://bit.ly/Mar23CCC" target="_blank">we discussed as a group</a>.</p>
+    <p>To skip to the examples and ideas, <a href="#examples">click here</a>.</p>
+    <br>
+  </div>
+
+  <div id="challenge" class="left">
+    <h3>Your challenge</h3>
+    <p>TO BE ADDED</p>
+    <br>
+  </div>
+
+  <div id="starter" class="left">
+    <h3>Creating your first program</h3>
+    <p>Go to the <a href="https://makecode.microbit.org/" target="_blank">MakeCode editor</a>, and click <strong>New Project</strong>.</p>
+    <img src=".\images\makecode.PNG" alt="MakeCode editor window" width="800px" height="auto">
+    <p>Drag and drop code blocks (<em>click into the <strong>Basic</strong> menu</em>), to recreate this code:</p>
+    <img src=".\images\onstart-showstring.PNG" alt="on start, display string" width="400px" height="auto">
+    <p>You will see it running on the emulator on the left of your screen.</p>
+    <ul>
+      <li>What happens if you put the <strong>show</strong> block inside <strong>forever</strong> instead of <strong>on start</strong>?</li>
+      <li>What other <strong>show</strong> blocks can you find in the <strong>Basic</strong> menu?</li>
+    </ul>
+    <br>
+    <p>Follow the instructions to <a href="https://scienceoxford.github.io/do-your-bit/pair-microbit.html" target="_blank">pair your micro:bit</a>, then click <strong>Download</strong> to send your code to your physical micro:bit.</p>
+    <br>
+  </div>
+
+  <div id="sensor" class="left">
+    <h3>If, then, else</h3>
+    <p>Try this code:</p>
+    <img src="https://isioviel.github.io/GLAM/images/light-sensor-basic-code.PNG" alt="if button a pressed, show light level" width="400px" height="auto">
+    <p>If you press Button A on your micro:bit, it will display the light level <strong>at the time the button was pressed</strong>.</p>
+    <br>
+    <img src="https://isioviel.github.io/GLAM/images/on-vs-if.PNG" alt="on button pressed vs if button pressed" width="800px" height="auto">
+    <p>These two blocks of code are <em>equivalent</em>.</p>
+    <p>The one on the left is good for quick testing.</p>
+    <p>The one on the right is more useful to us, because you can use it to build more complex programs.</p>
+    <p>The block you need to create this new code is in the <strong>Logic</strong> menu.</p>
+    <br>
+    <p>Next, add to your code, by clicking the <code>+</code> button at the bottom.</p>
+    <p>Make something different happen when the button is not pressed (<strong>else</strong>), for example clear the screen.</p>
+    <img src="https://scienceoxford.github.io/winter-warmers/images/if-else-button.PNG" alt="forever, if 'button A is pressed' then, show icon, else, clear screen" width="600px" height="auto">
+  </div>
+
+  <div id="cont" class="left">
+    <h3>What can you use this for?</h3>
+    <p>There are lots of useful blocks in the <strong>Logic</strong> menu.
+    <p>As well as the <strong>Conditionals</strong> we have just used, you can combine <strong>Comparison</strong> and <strong>Boolean</strong> blocks to make a really interesting program!</p>
+    <p>Think about what you want to achieve, then experiment with the code blocks.</p>
+    <br>
+  </div>
+
+  <div id="outputs" class="left">
+    <h3>Next steps</h3>
+    <p>The micro:bit has many different sensors you can use. To decide where to start, <strong>think about what problem you want to solve</strong>.</p>
+    <p>Some sensors are in the inputs menu:</p>
+    <ul>
+      <li><strong>light level</strong> - the micro:bit uses the LED screen on the front of the micro:bit to measure light</li>
+      <li><strong>temperature</strong> - the micro:bit uses a sensor on the <em>processor</em> on the back to measure temperature</li>
+      <li><strong>compass heading</strong> - the micro:bit gives you an angle between 0-359 degrees. 0 is North, 180 is South, but it is hard to get it pointing <strong>exactly</strong></li>
+      <li><strong>accelerometer</strong> - use the <em>gestures</em>, such as shake, to tell when the micro:bit is moving in certain ways</li>
+      <li><strong>sound level</strong> - the micro:bit V2 uses a microphone on the front of the micro:bit to measure sound levels</li>
+    </ul>
+    <p>You can also use other <em>outputs</em>, such as a speaker and the <strong>Music</strong> blocks.</p>
+    <p>The links below give you some help with some more challenging ideas.</p>
+    <br>
+  </div>
+
+  <nav id="examples" class="left">
+    <h3>Extension Ideas</h3>
+    <p>These links give you some help for projects that need a extra components:<p>
+    <ul>
+      <li><a href="moisture-v2.html">sense moisture levels (TO BE ADDED)</a></li>
+      <li><a href="water.html">sense water levels (TO BE ADDED)</a></li>
+      <li><a href="connections.html">sense connection (TO BE ADDED)</a></li>
+      <li><a href="servo.html">add a servo motor (TO BE ADDED)</a></li>
+    </ul>
+    <p>Use the <strong>Radio</strong> menu to transmit information between two micro:bits:</p>
+    <ul>
+      <li><a href="radio.html">transmit information</a></li>
+    </ul>
+  </nav>
+
+  <footer class="links">
+    <a href="https://github.com/ScienceOxford/do-your-bit" target="_blank">View on GitHub</a>
+  </footer>
+
+</body>
+</html>
